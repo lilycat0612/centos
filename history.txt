@@ -1,0 +1,103 @@
+    1  exit
+    2  ip a
+    3  yum -y update
+    4  wget https://github.com/git-for-windows/git/releases/download/v2.15.0.windows.1/Git-2.15.0-64-bit.exe
+    5  curl https://github.com/git-for-windows/git/releases/download/v2.15.0.windows.1/Git-2.15.0-64-bit.exe
+    6  clear
+    7  ping www.google.com
+    8  python --version
+    9  pip install shadowsocks
+   10  exit
+   11  yum -y install nginx
+   12  python --version
+   13  python3
+   14  yum -y install python3
+   15  yum -y install yum-utils
+   16  yum -y groupinstall development
+   17  yum install python34-setuptools
+   18  easy_install-3.4 pip
+   19  python3 --version
+   20  pip3 install django
+   21  pip3 install selenium
+   22  git
+   23  ssh-keygen
+   24  vim ~/.ssh/id_rsa.pub
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd home
+   29  ls
+   30  mkdir lily
+   31  cd lily
+   32  git init
+   33  git add README.md
+   34  echo "# centos" >> README.md
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git config --global user.email "27803532@qq.com"
+   38  git config --global user.name "lilycat0612"
+   39  git remote add origin https://github.com/lilycat0612/centos.git
+   40  git push -u origin master
+   41  ls
+   42  git push -u origin master
+   43  cd .git
+   44  ls
+   45  cat config 
+   46  ping github.com
+   47  telnet github.com 80
+   48  yum -y install telnet
+   49  telnet github.com 80
+   50  telnet github.com 22
+   51  cd ..
+   52  git push -u origin master
+   53  git push -u git@github.com:lilycat0612/centos master
+   54  git push -u git@github.com:lilycat0612/centos
+   55  git push -u git@github.com:lilycat0612/centos.git
+   56  git push -u git@github.com:lilycat0612/centos.git master
+   57  git remote add origin_s git@github.com:lilycate0612/centos.git
+   58  git push -u origin_s master
+   59  pwd
+   60  cd ~/.ssh
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd /home/lily
+   65  ls
+   66  ls -alh
+   67  mkdir work
+   68  mv .git work/
+   69  mv README.md work/
+   70  cd wor
+   71  cd work
+   72  git push -u origin_s master
+   73  ls
+   74  cd .git
+   75  ls
+   76  cat config 
+   77  vim config 
+   78  git push -u origin_s master
+   79  cat ~/.ssh/id_rsa.pub
+   80  error: src refspec master does not match any.
+   81  cd ..
+   82  ls
+   83  git checkout -b master
+   84  git push -u origin_s master
+   85  git push origin_s master
+   86  git push origin master
+   87  git push -u origin_s master
+   88  git checkout master
+   89  git commit
+   90  git push -u origin_s master
+   91  pwd
+   92  git remote remove origin
+   93  vim .git/config
+   94  git push -u origin master
+   95  ls
+   96  git checkout
+   97  vim README.md 
+   98  git commit
+   99  git commit -a
+  100  git push
+  101  history
+  102  histroy >>history.txt
+  103  history | tee history.txt
