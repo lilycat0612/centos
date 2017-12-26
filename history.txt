@@ -101,3 +101,343 @@
   101  history
   102  histroy >>history.txt
   103  history | tee history.txt
+  104  ls
+  105  git commit -am "history.txt"
+  106  git diff
+  107  git add history.txt 
+  108  git commit -am "history.txt"
+  109  git push
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd home/lily/work/
+  114  ls
+  115  yum -y nginx
+  116  sudo yum install epel-release
+  117  sudo yum install nginx
+  118  sudo systemctl start nginx
+  119  sudo firewall-cmd --permanent --zone=public --add-service=http 
+  120  ip a
+  121  sudo pip3 install virtualenv
+  122  cd /etc/ssh
+  123  ls
+  124  vim ssh_config
+  125  exit
+  126  cat /etc/ssh/ssh_config | grep GatewayPorts
+  127  vim /etc/ssh/sshd_config 
+  128  systemctl restart sshd
+  129  systemctl status sshd
+  130  exit
+  131  vim /etc/ssh/sshd_config 
+  132  systemctl restart sshd
+  133  ps aux | grep sshd
+  134  sudo reboot now
+  135  python2
+  136  python3
+  137  pip3
+  138  exit()
+  139  sudo pip3 install virtualenv
+  140  cd >>
+  141  cd ..
+  142  ls
+  143  cd home/
+  144  cd lily/
+  145  cd work/
+  146  ls
+  147  git clone https://github.com/lilycat0612/myDjango
+  148  ls
+  149  cd myDjango/
+  150  ls
+  151  python3 manage.py runserver
+  152  pip list
+  153  sudo pip unistall Django
+  154  sudo pip uninstall Django
+  155  pip3 install django==1.7
+  156  python3 manage.py runserver
+  157  exit
+  158  netstat -tulpn
+  159  vim /etc/ssh/sshd_config 
+  160  exit
+  161  grep -irn sshd /var/log
+  162  cd /var/log
+  163  ls
+  164  rm -rf ./
+  165  rm -rf *
+  166  ls
+  167  exit
+  168  grep -irn sshd /var/log
+  169  grep -irn ssh /var/log
+  170  cd /var/log
+  171  ls
+  172  exit
+  173  ls
+  174  cd /home/lily
+  175  cd work/
+  176  ;s
+  177  ls
+  178  cd myDjango/
+  179  ls
+  180  python3 manage.py runserver
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd usr
+  185  ls
+  186  cd ..
+  187  cd home/
+  188  ls
+  189  cd lily
+  190  ls
+  191  cd work/
+  192  ls
+  193  cd myDjango/
+  194  ls
+  195  python
+  196  python3
+  197  python manage.py runserver
+  198  python3
+  199  history
+  200  python3 manage.py migrate
+  201  python3 manage.py runserver
+  202  sudo service nginx start
+  203  exit
+  204  ps aux
+  205  service nginx start
+  206   systemctl status nginx.service -l
+  207  /etc/init.d/nginx start
+  208  cd /etc/init.d/
+  209  ls
+  210  yum -y install nginx
+  211  sudo systemctl start nginx
+  212  sudo systemctl status nginx
+  213  cd ..
+  214  ls
+  215  cd home/
+  216  ls
+  217  cd lily/
+  218  ls
+  219  cd work/
+  220  ls
+  221   history | tee history.txt
+    1  exit
+    2  ip a
+    3  yum -y update
+    4  wget https://github.com/git-for-windows/git/releases/download/v2.15.0.windows.1/Git-2.15.0-64-bit.exe
+    5  curl https://github.com/git-for-windows/git/releases/download/v2.15.0.windows.1/Git-2.15.0-64-bit.exe
+    6  clear
+    7  ping www.google.com
+    8  python --version
+    9  pip install shadowsocks
+   10  exit
+   11  yum -y install nginx
+   12  python --version
+   13  python3
+   14  yum -y install python3
+   15  yum -y install yum-utils
+   16  yum -y groupinstall development
+   17  yum install python34-setuptools
+   18  easy_install-3.4 pip
+   19  python3 --version
+   20  pip3 install django
+   21  pip3 install selenium
+   22  git
+   23  ssh-keygen
+   24  vim ~/.ssh/id_rsa.pub
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd home
+   29  ls
+   30  mkdir lily
+   31  cd lily
+   32  git init
+   33  git add README.md
+   34  echo "# centos" >> README.md
+   35  git add README.md
+   36  git commit -m "first commit"
+   37  git config --global user.email "27803532@qq.com"
+   38  git config --global user.name "lilycat0612"
+   39  git remote add origin https://github.com/lilycat0612/centos.git
+   40  git push -u origin master
+   41  ls
+   42  git push -u origin master
+   43  cd .git
+   44  ls
+   45  cat config 
+   46  ping github.com
+   47  telnet github.com 80
+   48  yum -y install telnet
+   49  telnet github.com 80
+   50  telnet github.com 22
+   51  cd ..
+   52  git push -u origin master
+   53  git push -u git@github.com:lilycat0612/centos master
+   54  git push -u git@github.com:lilycat0612/centos
+   55  git push -u git@github.com:lilycat0612/centos.git
+   56  git push -u git@github.com:lilycat0612/centos.git master
+   57  git remote add origin_s git@github.com:lilycate0612/centos.git
+   58  git push -u origin_s master
+   59  pwd
+   60  cd ~/.ssh
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd /home/lily
+   65  ls
+   66  ls -alh
+   67  mkdir work
+   68  mv .git work/
+   69  mv README.md work/
+   70  cd wor
+   71  cd work
+   72  git push -u origin_s master
+   73  ls
+   74  cd .git
+   75  ls
+   76  cat config 
+   77  vim config 
+   78  git push -u origin_s master
+   79  cat ~/.ssh/id_rsa.pub
+   80  error: src refspec master does not match any.
+   81  cd ..
+   82  ls
+   83  git checkout -b master
+   84  git push -u origin_s master
+   85  git push origin_s master
+   86  git push origin master
+   87  git push -u origin_s master
+   88  git checkout master
+   89  git commit
+   90  git push -u origin_s master
+   91  pwd
+   92  git remote remove origin
+   93  vim .git/config
+   94  git push -u origin master
+   95  ls
+   96  git checkout
+   97  vim README.md 
+   98  git commit
+   99  git commit -a
+  100  git push
+  101  history
+  102  histroy >>history.txt
+  103  history | tee history.txt
+  104  ls
+  105  git commit -am "history.txt"
+  106  git diff
+  107  git add history.txt 
+  108  git commit -am "history.txt"
+  109  git push
+  110  ls
+  111  cd ..
+  112  ls
+  113  cd home/lily/work/
+  114  ls
+  115  yum -y nginx
+  116  sudo yum install epel-release
+  117  sudo yum install nginx
+  118  sudo systemctl start nginx
+  119  sudo firewall-cmd --permanent --zone=public --add-service=http 
+  120  ip a
+  121  sudo pip3 install virtualenv
+  122  cd /etc/ssh
+  123  ls
+  124  vim ssh_config
+  125  exit
+  126  cat /etc/ssh/ssh_config | grep GatewayPorts
+  127  vim /etc/ssh/sshd_config 
+  128  systemctl restart sshd
+  129  systemctl status sshd
+  130  exit
+  131  vim /etc/ssh/sshd_config 
+  132  systemctl restart sshd
+  133  ps aux | grep sshd
+  134  sudo reboot now
+  135  python2
+  136  python3
+  137  pip3
+  138  exit()
+  139  sudo pip3 install virtualenv
+  140  cd >>
+  141  cd ..
+  142  ls
+  143  cd home/
+  144  cd lily/
+  145  cd work/
+  146  ls
+  147  git clone https://github.com/lilycat0612/myDjango
+  148  ls
+  149  cd myDjango/
+  150  ls
+  151  python3 manage.py runserver
+  152  pip list
+  153  sudo pip unistall Django
+  154  sudo pip uninstall Django
+  155  pip3 install django==1.7
+  156  python3 manage.py runserver
+  157  exit
+  158  netstat -tulpn
+  159  vim /etc/ssh/sshd_config 
+  160  exit
+  161  grep -irn sshd /var/log
+  162  cd /var/log
+  163  ls
+  164  rm -rf ./
+  165  rm -rf *
+  166  ls
+  167  exit
+  168  grep -irn sshd /var/log
+  169  grep -irn ssh /var/log
+  170  cd /var/log
+  171  ls
+  172  exit
+  173  ls
+  174  cd /home/lily
+  175  cd work/
+  176  ;s
+  177  ls
+  178  cd myDjango/
+  179  ls
+  180  python3 manage.py runserver
+  181  ls
+  182  cd ..
+  183  ls
+  184  cd usr
+  185  ls
+  186  cd ..
+  187  cd home/
+  188  ls
+  189  cd lily
+  190  ls
+  191  cd work/
+  192  ls
+  193  cd myDjango/
+  194  ls
+  195  python
+  196  python3
+  197  python manage.py runserver
+  198  python3
+  199  history
+  200  python3 manage.py migrate
+  201  python3 manage.py runserver
+  202  sudo service nginx start
+  203  exit
+  204  ps aux
+  205  service nginx start
+  206   systemctl status nginx.service -l
+  207  /etc/init.d/nginx start
+  208  cd /etc/init.d/
+  209  ls
+  210  yum -y install nginx
+  211  sudo systemctl start nginx
+  212  sudo systemctl status nginx
+  213  cd ..
+  214  ls
+  215  cd home/
+  216  ls
+  217  cd lily/
+  218  ls
+  219  cd work/
+  220  ls
+  221   history | tee history.txt
+  222  history >> history.txt 
